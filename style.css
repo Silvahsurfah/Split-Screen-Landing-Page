@@ -1,0 +1,20 @@
+@import url('https://fonts.goolgeapis.com/css?family=Oswald');
+
+html body {
+    margin:0;
+    padding:0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
+}
+
+h1 {
+   font-size: 4rem;
+   color: #000;
+   position: absolute;
+   left: 50%;
+   top: 20%;
+   transform: translateX(-50%);
+   white-space: nowrap; 
+}
