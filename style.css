@@ -130,3 +130,22 @@ border-color: rgba(20, 20, 20, 0.7);
 .hover-right .left:before {
     z-index: 2;
 }
+
+/* Media Queries */
+
+@media(max-width: 800px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .button {
+        width: 12rem;
+    }
+}
+
+@media(max-height: 700px) {
+    .button{
+      top: 70%;
+    }
+    
+}
