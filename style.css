@@ -18,3 +18,50 @@ h1 {
    transform: translateX(-50%);
    white-space: nowrap; 
 }
+
+.button {
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    height: 2.5 rem;
+    padding-top: 1.3rem;
+    width: 15rem;
+    text-align: center;
+    color: #000;
+    border-radius: 5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    transform: translateX(-50%);
+}
+.split.left .button:hover {
+    background: rgba(255, 255, 255, 0.7);
+    border-color: rgba(20, 20, 20, 0.7);
+}
+
+.split.right .button:hover {
+background: rgba(20, 20, 20, 0.7);
+border-color: rgba(20, 20, 20, 0.7);
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: #000;
+}
+
+.split {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.split.left {
+    left: 0;
+    background: url('images/city-day.jpeg') center center no-repeat;
+    background-size: cover;
+}
